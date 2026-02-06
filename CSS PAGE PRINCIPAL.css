@@ -1,0 +1,165 @@
+* {  
+    user-select: none;
+    -webkit-user-select: none; /* Pour Chrome/Safari */
+    -moz-user-select: none;    /* Pour Firefox */
+    -ms-user-select: none;     /* Pour Internet Explorer/Edge */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    /* Style texte */
+    font-family: Arial, sans-serif;
+    color: rgb(0, 255, 98);
+    overflow: hidden;
+}
+#fondc
+{
+width: 33vw;
+height: 110vh;
+position: absolute;
+left: -2.4%;
+top: 0%;
+pointer-events: none;
+user-select: none; 
+}
+#fondamelioration
+{
+width: 33vw;
+height: 110vh;
+position: absolute;
+left: 84%;
+top: 0%;
+pointer-events: none;
+user-select: none; 
+z-index: 1;
+}
+#fonda2
+{
+width: 33vw;
+height: 110vh;
+position: absolute;
+left: 31.2%;
+top: 0%;
+pointer-events: none;
+user-select: none;
+z-index: 0;
+}
+#fonda3
+{
+width: 33vw;
+height: 110vh;
+position: absolute;
+left: 63.2%;
+top: 0%;
+pointer-events: none;
+user-select: none;
+z-index: 0;
+}
+
+.wooden
+{
+ z-index: 100;
+}
+#wood
+{
+width: 70vw;
+height: 15vh;
+position: absolute;
+left: -84px;
+rotate: 90deg;
+top: 400px;
+pointer-events: none;
+user-select: none; 
+z-index: 100;
+}
+#wood2
+{
+width: 110vw;
+height: 15vh;
+position: absolute;
+left: -5px;
+top: 110px;
+pointer-events: none;
+user-select: none; 
+
+}
+#wood3
+{
+width: 110vw;
+height: 15vh;
+position: absolute;
+left: 550px;
+rotate: 90deg;
+top: 160px;
+pointer-events: none;
+user-select: none; 
+z-index: 10;
+
+}
+
+
+
+
+.bandeau {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black;
+    font-size: 20px;
+    display: flex;
+    width: 576px;
+    height: 90px; /* hauteur du bandeau */
+    background-color: rgba(0, 0, 0, 0.5); /* noir à 50% d'opacité */
+    color: white;
+    position: fixed; /* reste en haut lors du scroll */
+    align-items: center;  /* centrer verticalement */
+    justify-content: center; /* centrer horizontalement */
+    top: 150px;
+    pointer-events: none;
+    user-select: none; 
+
+}
+
+.cordiero {
+    font-family: 'Merriweather', serif;
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;  
+    align-items: center;      /* centre verticalement */
+    justify-content: center;  /* centre horizontalement */
+    position: fixed;
+    top: 80px;
+    left: 100px;     /* tu peux enlever ou modifier pour centrer l'ensemble de l'écran */
+    border-radius: 45px;
+    user-select: none; 
+    font-weight: bolder;
+
+}
+
+.cookie-stats {
+text-align: center;
+color: #ffffff;
+font-family: 'Merriweather', serif;
+font-size: 40px ;
+}
+
+.cookies {
+color: #ffffff;
+font-size: 24px;
+font-family: 'Merriweather', serif;
+font-size: 35px ;
+}
+
+.per-second {
+font-family: 'Merriweather', serif;
+font-size: 20px;
+color: #ffffff;
+
+opacity: 0.8;
+}

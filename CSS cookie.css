@@ -1,0 +1,97 @@
+#black
+{
+width: 31vw;
+height: 80vh;
+position: absolute;
+left: -1px;
+top: 250px;
+pointer-events: none;
+user-select: none; 
+}
+
+#black2
+{
+width: 31vw;
+height: 70vh;
+position: absolute;
+rotate: 180deg;
+left: -1px;
+top: -190px;
+pointer-events: none;
+user-select: none; 
+}
+#black3
+{
+width: 31vw;
+height: 400vh;
+position: absolute;
+rotate: 180deg;
+left: 84%;
+top: -1000px;
+pointer-events: none;
+user-select: none; 
+z-index: 2;
+}
+
+#cookie
+{
+width: 15vw;
+height:30vh;
+position: absolute;
+left: 8%;
+top: 33%;
+user-select: none; 
+-webkit-user-drag: none;/* pour pas que ca ce selectionne*/
+pointer-events: auto;
+cursor: pointer; /* montre que c'est cliquable */
+transition: transform 0.1s; /* effet visuel au clic */
+filter: drop-shadow(3px 8px 0 rgba(0, 0, 0, 0.4));
+}
+#cookie:active,
+#cookie:hover:active 
+{
+    transform: scale(0.95); /* “effet d'appui” */
+}
+#cookie:hover {
+    transform: scale(1.05); /* grossit de 10% */
+}
+.cookie-shine {
+    position: absolute;
+    width: 500px;          /* ajuster selon la taille de ton cookie */
+    height: 500px;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background: url('Images/shine.png') no-repeat center center;
+    background-size: contain;
+    pointer-events: none;  /* clique passe à travers */
+    z-index: 0;            /* derrière le cookie */
+    animation: shineRotate 6s linear infinite;
+}
+
+@keyframes shineRotate {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+.plus-one {
+    position: absolute;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    pointer-events: none;
+    animation: floatUp 1.2s ease-out forwards;
+    text-shadow: 0 0 5px black;
+    user-select: none; 
+}
+
+@keyframes floatUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}

@@ -1,0 +1,172 @@
+#upgradeimg2
+{
+width: 25vw;
+height: 17.5vh;
+position: absolute;
+left: 81%;
+top: 24.5%;
+cursor: pointer;
+user-select: none; 
+-webkit-user-drag: none;
+z-index: 3;
+}
+#upgradeimg2:active 
+{
+    transform: scale(0.97); /* “effet d'appui” */
+}
+#upgradeimg2:hover
+{
+    filter: brightness(1.25); /* 1.0 = normal, 1.2 = 20% plus lumineux */
+    cursor: pointer;         /* Change le curseur en main pour indiquer que c'est cliquable */
+}
+
+.up2
+{
+    font-family: "serif";
+    text-shadow: 1px 1px 0 black;
+    font-weight: bold;
+    font-size: 18px;
+    width:100px;
+    height: 50px; 
+    color: white;
+    display: flex;  
+    position: fixed; 
+    top: 33.3%;
+    left: 90.5%;
+    pointer-events: none;
+    user-select: none; 
+    z-index: 3;
+
+
+}
+#ours
+{
+    width:16%;
+    height:16%; 
+    color: white;
+    display: flex;      
+    position: fixed; 
+    top: 23%;
+    left: 78%;
+    pointer-events: none;
+    user-select: none; 
+    z-index: 3;
+    filter: brightness(0.25);
+
+}
+#oursup
+{
+    pointer-events: none;
+    user-select: none; 
+}
+#mini-cookie2
+{
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    top: 35%;
+    left: 89%;
+    user-select: none; 
+    z-index: 3;
+
+}
+.titre2
+{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 1px 1px 0 black;
+    width:1000px;
+    height: 50px; 
+    color: white;
+    display: flex;  
+    position: fixed; 
+    top: 27.6%;
+    left: 89%;
+    pointer-events: none;
+    user-select: none; 
+    z-index: 3;
+
+}
+#nbupgrade2
+{
+    font-family: "Military";  
+    font-weight: bolder;
+    font-size: 60px;
+    width:1000px;
+    height: 50px; 
+    color: rgba(0, 0, 0, 0.397);
+    position: fixed; 
+    top: 29.3%;
+    left: 96%;
+    pointer-events: none;
+    user-select: none;
+    z-index: 3;
+
+}
+
+.fondoursplus
+{
+    width:15%;
+    height: 15%; 
+    color: white;
+    display: flex;  
+    position: fixed; 
+    top: 34%;                   
+    left: 31.2%;
+    display: none;
+    pointer-events: none;
+    user-select: none; 
+    z-index: 0;
+    
+}
+#fondours
+{
+    width:15%;
+    height: 15%; 
+    display: flex;  
+    position: fixed; 
+    top: 34%;
+    left: 31.2%;
+}
+#fondours2
+{
+    width:15%;
+    height: 15%; 
+    display: flex;  
+    position: fixed; 
+    top: 34%;
+    left: 46.1%;
+}
+#fondours3
+{
+    width:15%;
+    height: 15%; 
+    display: flex;  
+    position: fixed; 
+    top: 34%;
+    left: 61.1%;
+}
+#fondours4
+{
+    width:15%;
+    height: 15%; 
+    display: flex;  
+    position: fixed; 
+    top: 34%;
+    left: 76.1%;
+    z-index: 1;
+}
+#woodours
+{
+    width:77%;
+    height: 15vh;
+    color: white;
+    display: flex;  
+    position: fixed; 
+    top: 42.8%;
+    left: 20%;
+    pointer-events: none;
+    user-select: none; 
+    z-index:3;
+}
