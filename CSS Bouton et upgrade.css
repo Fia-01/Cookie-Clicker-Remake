@@ -118,11 +118,11 @@ z-index: 3;
 #fondcat
 {
     width:15%;
-    height: 18%; 
+    height: 13%; 
     color: white;
     display: flex;  
     position: fixed; 
-    top: 17.9%;
+    top: 22vh;
     left: 31.2%;
     pointer-events: none;
     user-select: none; 
@@ -131,11 +131,11 @@ z-index: 3;
 #fondcat2
 {
     width:15%;
-    height: 18%; 
+    height: 13%; 
     color: white;
     display: flex;  
     position: fixed; 
-    top: 17.9%;
+    top: 22vh;
     left: 46.22%;
     pointer-events: none;
     user-select: none; 
@@ -144,11 +144,11 @@ z-index: 3;
 #fondcat3
 {
     width:15%;
-    height: 18%; 
+    height: 13%; 
     color: white;
     display: flex;  
     position: fixed; 
-    top: 17.9%;
+    top: 22vh;
     left: 61.22%;
     pointer-events: none;
     user-select: none; 
@@ -157,11 +157,11 @@ z-index: 3;
 #fondcat4
 {
     width:15%;
-    height: 18%; 
+    height: 13%; 
     color: white;
     display: flex;  
     position: fixed; 
-    top: 17.9%;
+    top: 22vh;
     left: 76.22%;
     pointer-events: none;
     user-select: none; 

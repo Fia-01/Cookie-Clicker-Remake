@@ -46,12 +46,12 @@ upgrade.addEventListener("click", () => {
 
 
         if(nbup1 % 2 == 1){
-            chat.style.left = (nbup1 * 60) + 550 + "px";
-            chat.style.top = "260px";
+            chat.style.left = (nbup1 * 60) + 500 + "px";
+            chat.style.top = "26vh";
         }
         else{
-            chat.style.left = (nbup1 * 60) + 550 + "px";
-            chat.style.top = "267px";
+            chat.style.left = (nbup1 * 60) + 500 + "px";
+            chat.style.top = "27vh";
         }
     }
 

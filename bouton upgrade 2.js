@@ -45,11 +45,11 @@ upgrade2.addEventListener("click", () => {
 
         if(nbup2 % 2 == 1){
             ours.style.left = (nbup2 * 50) + -30 + "px";
-            ours.style.top = "410px";
+            ours.style.top = "41vh";
         }
         else{
             ours.style.left = (nbup2 * 50) + -30 + "px";
-            ours.style.top = "400px";
+            ours.style.top = "40vh";
         }
     }
         fondoursplus.appendChild(ours);
@@ -81,11 +81,11 @@ upgrade3.addEventListener("click", () => {
 
         if(nbup3 % 2 == 1){
             chef.style.left = (nbup3 * 50) + -30 + "px";
-            chef.style.top = "530px";
+            chef.style.top = "53vh";
         }
         else{
             chef.style.left = (nbup3 * 50) + -30 + "px";
-            chef.style.top = "540px";
+            chef.style.top = "54vh";
         }
     }
         fondchefplus.appendChild(chef);
@@ -132,11 +132,11 @@ upgrade4.addEventListener("click", () => {
 
         if(nbup4 % 2 == 1){
             roi.style.left = (nbup4 * 50) + -30 + "px";
-            roi.style.top = "670px";
+            roi.style.top = "69vh";
         }
         else{
             roi.style.left = (nbup4 * 50) + -30 + "px";
-            roi.style.top = "680px";
+            roi.style.top = "70vh";
         }
     }
         fondroiplus.appendChild(roi);
