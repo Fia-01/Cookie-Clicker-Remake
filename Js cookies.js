@@ -9,7 +9,7 @@ const displayprixboutique1 = document.getElementById("prix-boutique1");
 
 
 let nombrecookies = 0;
-let cookiesparclick = 1000000;
+let cookiesparclick = 1;
 
 function updateUI() {           //fonction pr mettre a jour les prix etc
     affichagecookies.textContent = nombrecookies;
