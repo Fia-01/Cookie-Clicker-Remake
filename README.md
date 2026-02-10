@@ -1,6 +1,9 @@
+
+<img width="1280" height="400" alt="fia ___" src="https://github.com/user-attachments/assets/78daf2bf-e889-4d8f-8b46-888a729bfc35" />
+
 # - Cookie Clicker Remake -
 
-C'est une version personnelle du jeu 'Cookie Clicker' que j'ai développée pour améliorer mon niveau en développement web.
+C'est une version personnelle du jeu 'Cookie Clicker' que j'ai développée pour améliorer mon niveau en développement web notamment en JS.
 
 **Lien du jeu :** [https://fia-01.github.io/Cookie-Clicker-Remake/](https://fia-01.github.io/Cookie-Clicker-Remake/)
 
